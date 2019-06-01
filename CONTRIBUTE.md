@@ -38,7 +38,7 @@ Thanks for your help!
 
 ## Patches submission
 
-Patches are welcome as [pull requests on GitHub][2].  Please include a
+Patches are welcome as pull requests on GitHub. Please include a
 Signed-off-by tag in the commit message (you can do this by passing `--signoff`
 parameter to Git). 
 
