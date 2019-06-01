@@ -46,4 +46,4 @@ The components are not placed at your desired place when you trigger the shortcu
 If you know any of the component which is generally used by the designers and can be generalized, feel free to contact me on ` rohit.methwani31@gmail.com `.
 
 ## Example
- ![Screenshot](resources/git.png)
+ ![Screenshot](git.png)
