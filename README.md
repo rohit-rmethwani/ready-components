@@ -19,7 +19,7 @@ The plugin provides ready made components which are generalized and can be used 
  - Sidebar
  - Popup and many more.
 ## How to install?
-Ready Components is available on the XD Plugin store. Just open plugin manager and search for 'Ready Components' .You can also download it [here](https://github.com/rohitmethwani/api-list/blob/master/xd/ready/ready-components.xdx)! 
+Ready Components is available on the XD Plugin store. Just open plugin manager and search for 'Ready Components' .You can also download it [here](https://github.com/rohit-rmethwani/ready-components/blob/master/installer/ready-components.xdx)! 
  
 ## How To use?
 Open the Canvas:
