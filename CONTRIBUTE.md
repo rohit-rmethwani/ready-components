@@ -23,7 +23,8 @@ Perform the following steps to start your contribution to our organization.
 Also if you implement any feature without consulting/informing any of the members your code won't be reviewed and accepted.
 
 ### Note : 
-    If you have any doubts regarding above steps or you are having any trouble then you can contact on slack(link below).
+    If you have any doubts regarding above steps or you are having any trouble then you can contact 
+    on slack(link below).
     
 
 ## Bug reporting
@@ -53,4 +54,4 @@ permission to license the patch as GNU Liscense.`
 
 ## More information
 
-If you have any further queries you can contact any of the memeber of the organization on our slack channel https://ready-components.slack.com/messages/DK86HAM47 . Also you can mail at `pixelit.care@gmail.com`
+If you have any further queries you can contact on slack channel https://ready-components.slack.com/messages/DK86HAM47 . Also you can mail at `pixelit.care@gmail.com`
