@@ -43,8 +43,8 @@ Open the Canvas:
 The components are not placed at your desired place when you trigger the shortcut or select from menu. You have to drag the component to your desired place.
 
 ## Contribute to Ready!
-You can contribute easily to ready. Refer [link](CONTRIBUTE.md)!
-If you know any of the component which is generally used by the designers and can be generalized, feel free to contact me on ` rohit.methwani31@gmail.com `.
+You can contribute easily to ready. Refer [link](CONTRIBUTE.md).
+
 
 ## Example
  ![Screenshot](git.png)
