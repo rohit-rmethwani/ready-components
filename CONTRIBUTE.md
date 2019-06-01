@@ -23,8 +23,7 @@ Perform the following steps to start your contribution to our organization.
 Also if you implement any feature without consulting/informing any of the members your code won't be reviewed and accepted.
 
 ### Note : 
-    If you have any doubts regarding above steps or you are having any trouble then you can contact on slack.
-    https://ready-components.slack.com/messages/DK86HAM47
+    If you have any doubts regarding above steps or you are having any trouble then you can contact on slack(link below).
     
 
 ## Bug reporting
