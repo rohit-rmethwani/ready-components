@@ -16,10 +16,10 @@ The plugin provides ready made components which are generalized and can be used 
  - Toggle Button
 
 #### Coming Soon! 
- - Sidebar
  - Popup and many more.
+ 
 ## How to install?
-Ready Components is available on the XD Plugin store. Just open plugin manager and search for 'Ready Components' .You can also download it [here](https://github.com/rohitmethwani/api-list/blob/master/xd/ready/ready-components.xdx)! 
+Ready Components is available on the XD Plugin store. Just open plugin manager and search for 'Ready Components' .You can also download it [here](https://github.com/rohit-rmethwani/ready-components/blob/master/installer/ready-components.xdx)! 
  
 ## How To use?
 Open the Canvas:
@@ -31,19 +31,26 @@ Open the Canvas:
 
  COMPONENT | WINDOWS SHORTCUT | MAC OS SHORTCUT |
  |---|---|---|
- | Card Component | Shift+Ctrl+Alt+C | Cmd+Shift+Alt+C |
- | List Card Component | Shift+Ctrl+Alt+L | Cmd+Shift+Alt+L |
+ | Image Card Component | Shift+Ctrl+Alt+C | Cmd+Shift+Alt+C |
+ | Notification/List Card Component | Shift+Ctrl+Alt+L | Cmd+Shift+Alt+L |
  | Header Component | Shift+Ctrl+Alt+H | Cmd+Shift+Alt+H |
  | Footer Component | Shift+Ctrl+Alt+D | Cmd+Shift+Alt+D |
  | Textfield Component | Shift+Ctrl+Alt+F | Cmd+Shift+Alt+F |
  | Button | Shift+Ctrl+Alt+B | Cmd+Shift+Alt+B |
- | Toggle Button | Shift+Ctrl+Alt+R |  Cmd+Shift+Alt+R |
+ | Toggle Button | Shift+Ctrl+Alt+R | Cmd+Shift+Alt+R |
+ | Accordion | Shift+Ctrl+Alt+X | Cmd+Shift+Alt+X |
+ | Icon Box | Shift+Ctrl+Alt+Z | Cmd+Shfit+Alt+Z |
+ | Basic Form | Shfit+Ctrl+Alt+A | Cmd+Shift+Alt+A | 
+ | Sidebar | Shfit+Ctrl+Alt+S | Cmd+Shift+Alt+S |
 
 ## Drawbacks
 The components are not placed at your desired place when you trigger the shortcut or select from menu. You have to drag the component to your desired place.
 
 ## Contribute to Ready!
-If you know any of the component which is generally used by the designers and can be generalized, feel free to contact me on ` rohit.methwani31@gmail.com `.
+You can contribute easily to ready. Refer [link](CONTRIBUTE.md).
+
+## Contact
+If you have any suggesstions, problems with the plugin please feel free to contact at `rohit.methwani31@gmail.com`.
 
 ## Example
- ![Screenshot](resources/git.png)
+ ![Screenshot](git.png)
