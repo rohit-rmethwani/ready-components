@@ -1,17 +1,23 @@
 {
     "id": "92da0037",
-    "name": "Ready Components",
-    "version": "0.0.2",
+    "name": "Ready Mobile Components for Adobe XD",
+    "version": "1.2.0",
     "description": "The plugin helps you to generate the basic general purpose components which are commonly used. You can further carve these components to your choice by just changing the styles.",
-    "summary": "Ready made components.",
+    "summary": "Ready made mobile components.",
     "languages": ["en"],
     "author": "Rohit Methwani",
-    "helpUrl": "https://github.com/rohitmethwani/api-list/blob/master/xd/ready/info.md",
+    "helpUrl": "http://fluidtech.in/ready",
     "host": {
       "app": "XD",
       "minVersion": "13.0"
     },  
+    "releaseNotes": "The plugin has been changed in Modal form now. ****Introducing Dynamic Components****.",
     "icons" : [ 
+      {
+        "path" : "icons/ready24.png",
+        "width" : 24,
+        "height" : 24     
+      },
       {
         "path" : "icons/ready48.png",
         "width" : 48,
@@ -36,72 +42,8 @@
     "uiEntryPoints": [
       {
         "type": "menu",
-        "label": "Ready Components",
-        "menuItems":[
-          {
-            "type":"menu",
-            "label": "List Card",
-            "commandId": "createListItem",
-            "shortcut": {
-              "win": "Ctrl+Shift+Alt+L",
-              "mac": "Cmd+Shift+Alt+L"
-            }
-          },
-          {
-            "type": "menu",
-            "label": "Header Container",
-            "commandId": "createHeader",
-            "shortcut": {
-              "win": "Ctrl+Shift+Alt+H",
-              "mac": "Cmd+Shift+Alt+H"
-            }
-          },
-          {
-            "type": "menu",
-            "label": "Card",
-            "commandId": "createListCard",
-            "shortcut":{
-              "win": "Ctrl+Shift+Alt+C",
-              "mac": "Cmd+Shift+Alt+C"
-            }
-          },
-          {
-            "type": "menu",
-            "label": "Button",
-            "commandId": "createButton",
-            "shortcut":{
-              "win": "Ctrl+Shift+Alt+B",
-              "mac": "Cmd+Shift+Alt+B"
-            }
-          },
-          {
-            "type": "menu",
-            "label": "TextField",
-            "commandId": "createTextField",
-            "shortcut": {
-              "win": "Ctrl+Shift+Alt+F",
-              "mac": "Cmd+Shift+Alt+F"
-            }
-          },
-          {
-            "type": "menu",
-            "label": "Toggle Button",
-            "commandId": "createToggleButton",
-            "shortcut": {
-              "win": "Ctrl+Shift+Alt+R",
-              "mac": "Cmd+Shift+Alt+R"
-            }
-          },
-          {
-            "type": "menu",
-            "label": "Footer",
-            "commandId" : "createFooter",
-            "shortcut": {
-              "win": "Ctrl+Shift+Alt+D",
-              "mac": "Cmd+Shift+Alt+D"
-            }
-          }
-        ]
+        "label": "UI Hello",
+        "commandId": "startPlugin"
       }
     ],
     "keywords":[
