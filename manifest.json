@@ -1,0 +1,156 @@
+{
+    "id": "92da0037",
+    "name": "Ready Mobile Components for Adobe XD",
+    "version": "1.0.4",
+    "description": "The plugin helps you to generate the basic general purpose components which are commonly used. You can further carve these components to your choice by just changing the styles.",
+    "summary": "Ready made mobile components.",
+    "languages": ["en"],
+    "author": "Rohit Methwani",
+    "helpUrl": "http://fluidtech.in/ready",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },  
+    "releaseNotes": "Added more components and fixed some bugs. Now the components can be easily added to the artboard by selecting the desired artboard and trigerring the plugin.",
+    "icons" : [ 
+      {
+        "path" : "icons/ready24.png",
+        "width" : 24,
+        "height" : 24     
+      },
+      {
+        "path" : "icons/ready48.png",
+        "width" : 48,
+        "height" : 48
+      }, 
+      {
+        "path" : "icons/ready96.png",
+        "width" : 96,
+        "height" : 96
+      },
+      {
+        "path" : "icons/ready144.png",
+        "width" : 144,
+        "height" : 144
+      },
+      {
+        "path" : "icons/ready192.png",
+        "width" : 192,
+        "height" : 192
+      }
+    ],
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Ready XD Components",
+        "menuItems":[
+          {
+            "type":"menu",
+            "label": "Notification Card",
+            "commandId": "createListItem",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+L",
+              "mac": "Cmd+Shift+Alt+L"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "Header Container",
+            "commandId": "createHeader",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+H",
+              "mac": "Cmd+Shift+Alt+H"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "Image Card",
+            "commandId": "createListCard",
+            "shortcut":{
+              "win": "Ctrl+Shift+Alt+C",
+              "mac": "Cmd+Shift+Alt+C"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "Button",
+            "commandId": "createButton",
+            "shortcut":{
+              "win": "Ctrl+Shift+Alt+B",
+              "mac": "Cmd+Shift+Alt+B"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "TextField",
+            "commandId": "createTextField",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+F",
+              "mac": "Cmd+Shift+Alt+F"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "Toggle Button",
+            "commandId": "createToggleButton",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+R",
+              "mac": "Cmd+Shift+Alt+R"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "Footer",
+            "commandId" : "createFooter",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+D",
+              "mac": "Cmd+Shift+Alt+D"
+            }
+          },
+          {
+            "type": "menu",
+            "label": "Accordion",
+            "commandId" : "createAccordion",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+X",
+              "mac": "Cmd+Shift+Alt+X"
+            }     
+          },
+          {
+            "type": "menu",
+            "label": "Icon Box",
+            "commandId" : "createIconBox",
+            "shortcut": {
+              "win": "Ctrl+Shift+Alt+Z",
+              "mac": "Cmd+Shift+Alt+Z"
+            }     
+          },
+            {
+                "type": "menu",
+                "label": "Form",
+                "commandId" : "createForm",
+                "shortcut": {
+                    "win": "Ctrl+Shift+Alt+A",
+                    "mac": "Cmd+Shift+Alt+A"
+                }     
+            },
+             {
+                "type": "menu",
+                "label": "Sidebar",
+                "commandId" : "createSidebar",
+                "shortcut": {
+                    "win": "Ctrl+Shift+Alt+S",
+                    "mac": "Cmd+Shift+Alt+S"
+                }
+             }
+            
+        ]
+      }
+    ],
+    "keywords":[
+      "components",
+      "readymade components",
+      "ready components"
+    ]
+  }
+  
