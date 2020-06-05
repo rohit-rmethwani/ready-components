@@ -1,7 +1,7 @@
 {
     "id": "92da0037",
     "name": "Ready Mobile Components for Adobe XD",
-    "version": "1.2.0",
+    "version": "1.0.4",
     "description": "The plugin helps you to generate the basic general purpose components which are commonly used. You can further carve these components to your choice by just changing the styles.",
     "summary": "Ready made mobile components.",
     "languages": ["en"],
@@ -11,7 +11,7 @@
       "app": "XD",
       "minVersion": "13.0"
     },  
-    "releaseNotes": "The plugin has been changed in Modal form now. ****Introducing Dynamic Components****.",
+    "releaseNotes": "Added more components and fixed some bugs. Now the components can be easily added to the artboard by selecting the desired artboard and trigerring the plugin.",
     "icons" : [ 
       {
         "path" : "icons/ready24.png",

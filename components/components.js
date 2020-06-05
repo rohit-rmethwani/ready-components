@@ -262,10 +262,8 @@ class Components{
         loginButton.setAllCornerRadii(5);
         loginButton.moveInParentCoordinates(passwordField.globalBounds.x, passwordField.globalBounds.y+70);
         
-        var loginButtonText = Utils.createText(["Log In", BLACK, "center", 16]);
-        loginButtonText.moveInParentCoordinates(Scaler.horizontallyCenter(loginButton.width, loginButtonText.globalBounds.width)+loginButton.globalBounds.x + (loginButtonText.globalBounds.width/2), loginButton.globalBounds.y + 26);
-
-        // loginButtonText.moveInParentCoordinates(loginButton.globalBounds.x + 78, loginButton.globalBounds.y + 26);
+        var loginButtonText = Utils.createText(["Login", BLACK, "center", 16]);
+        loginButtonText.moveInParentCoordinates(loginButton.globalBounds.x + 78, loginButton.globalBounds.y + 26);
         //LOGIN
         
         //SIGN UP
@@ -274,7 +272,7 @@ class Components{
         signupButton.moveInParentCoordinates((passwordField.width - signupButton.width) + 15, loginButton.globalBounds.y);
         
         var signupButtonText = Utils.createText(["Sign Up", BLACK, "center", 16]);
-        signupButtonText.moveInParentCoordinates(Scaler.horizontallyCenter(signupButton.width, signupButtonText.globalBounds.width)+signupButton.globalBounds.x + (signupButtonText.globalBounds.width/2), signupButton.globalBounds.y + 26);
+        signupButtonText.moveInParentCoordinates(signupButton.globalBounds.x + 78, signupButton.globalBounds.y + 26);
         //SIGN UP
        
         

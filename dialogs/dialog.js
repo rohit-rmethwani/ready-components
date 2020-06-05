@@ -33,7 +33,7 @@ class Dialogs{
                 .main-container{
                     width: 700;
                     height:400;
-                    overflow: scroll;
+                    overflow: "scroll";
                 }
 
                 .inline{
@@ -57,26 +57,6 @@ class Dialogs{
                     text-decoration: underline;
                 }
 
-                .success{
-                    background-color: #28A745;
-                }
-                .failure{
-                    background-color: #DE3E44;
-                }
-
-                #snackbar {
-                    display: none;
-                    margin-left: -125px;
-                    color: #fff;
-                    text-align: center;
-                    border-radius: 5px;
-                    padding: 16px;
-                    position: fixed;
-                    z-index: 1;
-                    left: 20%;
-                    bottom: 30px;
-                }  
-                
             </style>
             
             <div class="header-container">
@@ -156,9 +136,7 @@ class Dialogs{
                         <img src="./images/Toggle button.png" alt="" id="component-image" width="300px" height="215px">
                     </div>  
                 </div>
-            </div>
-            <div id="snackbar"></div>
-            `;
+            </div>`;
 
         return html;
 
@@ -193,16 +171,14 @@ class Dialogs{
                 <p>Plugin provides ready-made components which are generalized and can be used in any of the UI design. </p>
                 <p><a href="rohit-rmethwani.github.io/resume-website/" class="profile">By Rohit Methwani</a></p>
                 <br>
-                <p id="options-text">Select Artboard:</p>
-                <select id="options" width="250" style={border: solid 5px #F5F5F5;}></select>
+                <p>Select Artboard:</p><select id="options" width="250" placeholder="Select artboard">        
+                    </select>
             </div>
             <div class="right">
                 <a class="close-btn" id="close-btn"><img src="./images/close-purple.svg" width="75%" height="75%"></img></a>
             </div>
             <hr/>
         </div>
-
-        <div id="snackbar" class="`+ type +`">`+ message  +`</div>
         `;
         return html;
     }
@@ -237,3 +213,4 @@ class Dialogs{
 
 var object = new Dialogs();
 module.exports = object;
+//<button class="close-btn" id="close-btn" uxp-variant="warning"><img src="./images/close-purple"></img></button>

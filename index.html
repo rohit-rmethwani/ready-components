@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .content-container{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+    <div class="header-container">
+        <a href="fluidtech.in/ready"><img src="./icons/ready24.png" alt="" width="24px" height="24px"><b>Ready Components!</b></a>
+    </div>    
+    <div class="content-container">
+        <div class="button-container">
+            <button uxp-variant="quite"><img src="./btn.png" alt=""></button>
+        </div>
+        <div class="button-container">
+            <button uxp-variant="primary">This is a primary button</button>
+        </div>
+        <div class="button-container">
+            <button uxp-variant="primary" class="closeBtn" id="closeBtn">This is close button</button>
+        </div>
+    </div>  
+
+    <div class="content-container">
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Form.png" alt="" id="component-image" width="300px" height="215px">
+        </div>
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Button.png" alt="" id="component-image" width="300px" height="215px">
+        </div>  
+    </div>  
+    <div class="content-container">
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Footer.png" alt="" id="component-image" width="300px" height="215px">
+        </div>
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Form.png" alt="" id="component-image" width="300px" height="215px">
+        </div>  
+    </div>  
+
+    <div class="content-container">
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Header.png" alt="" id="component-image" width="300px" height="215px">
+        </div>
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Icon box.png" alt="" id="component-image" width="300px" height="215px">
+        </div>  
+    </div>  
+
+    <div class="content-container">
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Image card.png" alt="" id="component-image" width="300px" height="215px">
+        </div>
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/List card.png" alt="" id="component-image" width="300px" height="215px">
+        </div>  
+    </div>  
+
+    <div class="content-container">
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Sidebar.png" alt="" id="component-image" width="300px" height="215px">
+        </div>
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Textfield.png" alt="" id="component-image" width="300px" height="215px">
+        </div>  
+    </div>  
+
+    <div class="content-container">
+        <div class="button-container" id="button-component">
+            <h2 class="heading">Button Component<h2>
+            <img src="./images/Toggle button.png" alt="" id="component-image" width="300px" height="215px">
+        </div>  
+    </div>  
+    <script>
+            function horizontallyCenter(main, secondary)
+            {
+                let point = (Math.floor((main-secondary)/2));
+                return point;
+            }
+            function horizontallyCenter2(args)
+            {
+                let a = args[0];
+                let b = args[1];
+                return (a/b);
+            }
+            var a= horizontallyCenter(20, 10);
+            var b = horizontallyCenter2([20, 10]);
+            console.log("A:"+a);
+            console.log("B:"+b);
+       </script>       
+</body>
+</html>

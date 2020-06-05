@@ -6,7 +6,10 @@ class Scaler{
         return (masterHeight * percent);
     }
     horizontallyCenter(main, secondary){
-        return ((main-secondary)/2);;
+        console.log(main);
+        console.log(secondary);
+        let point = (Math.floor((main-secondary)/2));
+        return point;
     }
 }
 let object = new Scaler();
